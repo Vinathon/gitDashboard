@@ -8,7 +8,7 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  username = 'akshay27395';
+  username = '';
   users$:any;
 
   constructor(private readonly http: HttpClient) {}
